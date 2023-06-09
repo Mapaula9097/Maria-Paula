@@ -1,0 +1,240 @@
+
+ .navbar-inverse .navbar-nav>li>a {
+    font-size: 20px;
+    padding-right: 4rem;
+    
+  }
+  .navbar-inverse .navbar-brand {
+  color: #26913f;
+}
+.nav>li>a {
+  position: relative;
+  display: block;
+  padding: 40px 45px;
+}
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    text-decoration-color: rgb(255, 255, 255);
+    border: 0px solid transparent;
+    background-color:#ed4c57;
+
+}
+.carousel {
+width:80%;
+}
+
+
+#scroll {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+ 
+}
+.img-fluid {
+  max-width: 50%;
+  height: auto;
+}
+#size {
+  color:#000000;
+  padding-right: 4rem;
+  padding-left: 2rem;
+  display: block;
+    text-decoration: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: none;
+}
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: left;
+  background-color: #000000;
+  box-sizing: border-box;
+}
+#espacio {
+  vertical-align: middle;
+  border-style: none;
+  margin-top: 40px;
+  margin-left: 200px;
+}
+body.page {
+background-color:#ed4c57
+}
+.imagen{
+
+  width: 100px;
+  z-index: 2;
+}
+
+  footer {
+    background-color: #6cc4b9;
+    padding: 40px;
+    border-radius: 10em;
+    height: 10px;
+    position: relative;
+  }
+
+   #foot {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10em;
+    height: 10px;
+  top:-100px;
+  }
+.img-responsive {
+  position: block;
+  max-width: 100%;
+  height: auto;
+  padding:0px;
+  }
+ #sm {
+ position: relative;
+ width: 40%;
+ padding: 40px;
+ padding-top: 40px;
+ padding-right: 15px;
+ padding-left: 15px;
+ background-color: blanchedalmond;
+ }
+
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+.speech-bubble {
+  background: #6cc4b9;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1em;
+    margin-bottom: 1em;
+    padding: 2em;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    min-width: 15em;
+    border-radius: 10em;
+    top:-100px;
+    right: 400px;
+    font-family: 'Roboto', sans-serif;
+}
+.speech-bubble {
+  background: #6cc4b9;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1em;
+    margin-bottom: 1em;
+    padding: 2em;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    min-width: 15em;
+    border-radius: 10em;
+    top:-100px;
+    right: 400px;
+    font-family: 'Roboto', sans-serif;
+    transition: all 400ms;
+}
+.speech-bubble:hover {
+transform: scale(1.3);
+}
+.speech-bubble:after {
+	border: 1em solid transparent;
+    border-top-color: #6cc4b9;
+    content: '';
+    margin-left: -1em;
+    position: absolute;
+    top: 100%;
+    left: 60%;
+    width: 0;
+    height: 0;
+    
+}
+#bold {
+  color:#000000;
+  padding:50px;
+  padding-right: 4rem;
+  padding-left: 2rem;
+  display: block;
+    text-decoration: none;
+  background-color:#6cc4b9;
+  margin-bottom:60px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 1px;
+
+}
+#bold:hover {
+    background-color: #ed4c57;
+}
+#bold {
+   
+ transition: background-color 0.8s linear 0.2s;
+}
+#line{
+  float: left;
+  padding: 10px;
+  margin-left: 100px;
+  margin-bottom: 28px;
+  width:200px;
+  height:150px;
+}
+p.font {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #6cc4b9;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 40px;
+}
+div.thing {
+  float: left;
+  width: 50%;
+  padding:15px;
+  background-color: #ed4c57;
+margin:5px;
+
+}
+
+div.gummy {
+  float: left;
+  width: 20%;
+  padding:15px;
+  background-color: #6cc4b9;
+  margin:50px;
+}
+
+p.tray {
+  padding:5px;
+  background-color: #ed4c57;
+}
+#land {
+background-color: #6cc4b9;
+
+}
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  
+}
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
